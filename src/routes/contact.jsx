@@ -63,7 +63,7 @@ export async function action({ request, params }) {
                       target="_blank"
                       href={`https://www.facebook.com/${contact.facebook}`}
                     >
-                      Facebook: {contact.facebook}
+                      Facebook test: {contact.facebook}
                     </a>
                   </p>
                 )}
