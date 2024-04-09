@@ -52,12 +52,36 @@ export async function action({ request, params }) {
               target="_blank"
               href={`https://twitter.com/${contact.twitter}`}
             >
-              {contact.twitter}
+              Twitter: {contact.twitter}
             </a>
           </p>
         )}
 
+        {contact.facebook && (
+                  <p>
+                    <a
+                      target="_blank"
+                      href={`https://www.facebook.com/${contact.facebook}`}
+                    >
+                      Facebook: {contact.facebook}
+                    </a>
+                  </p>
+                )}
+
+        {contact.instagram && (
+                  <p>
+                    <a
+                      target="_blank"
+                      href={`https://www.instagram.com/${contact.instagram}`}
+                    >
+                     instagram: {contact.instagram}
+                    </a>
+                  </p>
+                )}
+
         {contact.notes && <p>{contact.notes}</p>}
+
+        
 
         <div>
           <Form action="edit">

@@ -280,8 +280,28 @@ i {
   font-size: 1.5rem;
   color: #3992ff;
   text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 #contact a[href*="twitter"]:hover {
+  text-decoration: underline;
+}
+#contact a[href*="facebook"] {
+  display: flex;
+  font-size: 1.5rem;
+  color: #3992ff;
+  text-decoration: none;
+}
+#contact a[href*="facebook"]:hover {
+  text-decoration: underline;
+}
+#contact a[href*="instagram"] {
+  display: flex;
+  font-size: 1.5rem;
+  color: #3992ff;
+  text-decoration: none;
+}
+#contact a[href*="instagram"]:hover {
   text-decoration: underline;
 }
 

@@ -48,6 +48,24 @@ export default function EditContact() {
         />
       </label>
       <label>
+        <span>Facebook</span>
+        <input
+          type="text"
+          name="facebook"
+          placeholder="Username"
+          defaultValue={contact.facebook}
+        />
+      </label>
+      <label>
+        <span>Instagram</span>
+        <input
+          type="text"
+          name="instagram"
+          placeholder="#name"
+          defaultValue={contact.instagram}
+        />
+      </label>
+      <label>
         <span>Avatar URL</span>
         <input
           placeholder="https://example.com/avatar.jpg"
